@@ -20,11 +20,13 @@ and sim state increment =
 (* Non tail recursive, which is quicker for small lists,
  * but you can get stack overflow for large lists
  * *)
-let rec multirun num_runs init_state increment =
+let rec multirun num_runs init_state increment sum =
   match num_runs with
-  | 0 -> 0.
-  | _ -> (sim init_state increment) +. multirun (num_runs - 1) init_state
-  increment
+  | 0 -> sum
+  | _ -> multirun (num_runs - 1)
+                  init_state
+                  increment 
+                  (sum +. (sim init_state increment))
 
 let () =
   let increment = float_of_string Sys.argv.(1) in
@@ -36,4 +38,4 @@ let () =
     "%f, %f, %f\n"
     increment
     init_state
-    ((multirun runs init_state increment) /. (float_of_int runs))
+    ((multirun runs init_state increment 0.0) /. (float_of_int runs))
