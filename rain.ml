@@ -12,14 +12,11 @@ let rec transition p increment =
     sim (p -. increment) increment
 and sim state increment =
   (* Printf.printf "state %f\n" state; *)
-  match state with
-  | 0.0  -> 0.0
-  | 1.0  -> 1.0
-  | _ -> transition state increment
+  if state <= 0.0 then 0.0
+  else 
+   if state >= 1.0 then 1.0
+   else transition state increment
 
-(* Non tail recursive, which is quicker for small lists,
- * but you can get stack overflow for large lists
- * *)
 let rec multirun num_runs init_state increment sum =
   match num_runs with
   | 0 -> sum
