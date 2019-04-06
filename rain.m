@@ -1,10 +1,10 @@
 #! /usr/local/bin/MathematicaScript -script
 
-probland[] := Module[
+rain[] := Module[
   {
     min = 0,
     max = 100,
-    inc = 1,
+    step = 1,
     steps = 250,
     randos,
     next,
@@ -16,12 +16,12 @@ probland[] := Module[
     If[
       state == min || state == max,
       state,
-      If[rando <= state, state + inc, state - inc]
+      If[rando <= state, state + step, state - step]
     ]
   ];
   randos = RandomInteger[{min, max}, steps];
   timeline = Function[state, FoldList[next, state, randos]];
-  timelines = Map[timeline, Range[min + inc, max - inc, inc]];
+  timelines = Map[timeline, Range[min + step, max - step, step]];
   ListLinePlot[timelines, PlotTheme -> "Detailed"]
 ];
 
@@ -35,7 +35,7 @@ main[] := Module[
   Table[
     Export[
       "rain-" <> ToString[i] <> ".png",
-      probland[],
+      rain[],
       ImageResolution -> dpi
     ],
     {i, runs}
