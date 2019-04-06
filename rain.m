@@ -22,7 +22,7 @@ probland[] := Module[
   randos = RandomInteger[{min, max}, steps];
   timeline = Function[state, FoldList[next, state, randos]];
   timelines = Map[timeline, Range[min + inc, max - inc, inc]];
-  ListLinePlot[timelines]
+  ListLinePlot[timelines, PlotTheme -> "Detailed"]
 ];
 
 main[] := Module[
