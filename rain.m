@@ -28,10 +28,18 @@ probland[] := Module[
 main[] := Module[
   {
     argv = $ScriptCommandLine,
-    runs
+    runs,
+    dpi = 300
   },
   runs = If[Length[argv] > 1, ToExpression[argv[[2]]], 1];
-  Table[Export["rain-" <> ToString[i] <> ".png", probland[]], {i, runs}];
+  Table[
+    Export[
+      "rain-" <> ToString[i] <> ".png",
+      probland[],
+      ImageResolution -> dpi
+    ],
+    {i, runs}
+  ];
 ];
 
 main[];
