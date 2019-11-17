@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="32cm" height="12cm" viewBox="328 198 623 222" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <rect style="fill: #ffffff" x="330" y="200" width="620" height="219"/>
+    <rect style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #ffffff" x="330" y="200" width="620" height="219"/>
+    <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="313.4">
+      <tspan x="640" y="313.4"></tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="400" cy="310" rx="40" ry="40"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="400" cy="310" rx="40" ry="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="305.9">
+      <tspan x="400" y="305.9">S0</tspan>
+      <tspan x="400" y="321.9">P0=0.0</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 428.284,281.716 A 30.4466,30.4466 0 1 0 370.657,278.571"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="363.986,275.825 371.099,280.167 373.276,272.124 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="520" cy="310" rx="40" ry="40"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="520" cy="310" rx="40" ry="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="520" y="305.9">
+      <tspan x="520" y="305.9">S1</tspan>
+      <tspan x="520" y="321.9">P1=1/4</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 429.542,341.133 A 34.0182,34.0182 0 0 0 491.716,338.284"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="435.681,343.526 428.849,339.741 426.357,347.143 "/>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="640" cy="310" rx="40" ry="40"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="640" cy="310" rx="40" ry="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="640" y="305.9">
+      <tspan x="640" y="305.9">S2</tspan>
+      <tspan x="640" y="321.9">P2=1/2</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="760" cy="310" rx="40" ry="40"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" cx="760" cy="310" rx="40" ry="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="760" y="305.9">
+      <tspan x="760" y="305.9">S3</tspan>
+      <tspan x="760" y="321.9">P3=3/4</tspan>
+    </text>
+  </g>
+  <g>
+    <ellipse style="fill: #ffffff" cx="880" cy="310" rx="40" ry="40"/>
+    <ellipse style="fill: none; fill-opacity:0; stroke-width: 2; stroke-dasharray: 4; stroke: #000000" cx="880" cy="310" rx="40" ry="40"/>
+    <text font-size="12.8" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="880" y="305.9">
+      <tspan x="880" y="305.9">S4</tspan>
+      <tspan x="880" y="321.9">P4=1.0</tspan>
+    </text>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 549.542,341.133 A 34.0182,34.0182 0 0 0 611.716,338.284"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="555.681,343.526 548.849,339.741 546.357,347.143 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 669.542,341.133 A 34.0182,34.0182 0 0 0 731.716,338.284"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="675.681,343.526 668.849,339.741 666.357,347.143 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 610.458,278.867 A 34.0182,34.0182 0 0 0 548.284,281.716"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="604.319,276.474 611.151,280.259 613.643,272.857 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 730.458,278.867 A 34.0182,34.0182 0 0 0 668.284,281.716"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="724.319,276.474 731.151,280.259 733.643,272.857 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 850.458,278.867 A 34.0182,34.0182 0 0 0 788.284,281.716"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="844.319,276.474 851.151,280.259 853.643,272.857 "/>
+  </g>
+  <g>
+    <path style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" d="M 851.716,338.284 A 30.4466,30.4466 0 1 0 909.287,341.23"/>
+    <polyline style="fill: none; fill-opacity:0; stroke-width: 2; stroke: #000000" points="915.728,343.459 908.862,339.735 906.438,347.16 "/>
+  </g>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="460" y="380">
+    <tspan x="460" y="380">1 - P1</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="580" y="380">
+    <tspan x="580" y="380">1 - P2</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="380">
+    <tspan x="700" y="380">1 - P3</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="880" y="400">
+    <tspan x="880" y="400">P4</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="820" y="250">
+    <tspan x="820" y="250">P3</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="700" y="250">
+    <tspan x="700" y="250">P2</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="580" y="250">
+    <tspan x="580" y="250">P1</tspan>
+  </text>
+  <text font-size="12.7998" style="fill: #000000;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:normal" x="400" y="230">
+    <tspan x="400" y="230">1 - P0</tspan>
+  </text>
+</svg>
