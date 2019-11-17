@@ -17,6 +17,8 @@ Illustration:
     P3 = 3/4
     P4 = 4/4 = 1
 
+![mc_rain](mc_rain.svg)
+
 The probability of eternal rain in `S4` is `P4 = 4/4 = 1`. In `S4`, it rains today with probability 1 and it's going to rain tomorrow with probability 1 and so forth. By the same logic, `P0 = 0`
 
 `Analytical solution:` The probabilty of eternal rain if we start in `Si` is `Pri` 
